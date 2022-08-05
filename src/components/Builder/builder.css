@@ -1,0 +1,122 @@
+.builder__container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+article{
+    width: 90%;
+    margin: 0 auto;
+}
+
+article > h5, .build__container > h5{
+    color: var(--color-light);
+    margin: 1.3rem 0.5rem;
+    font-size: 1rem;
+}
+
+.userName > input, textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-light);
+}
+
+.inputBox{
+    width: 100%;
+    display: flex;
+    margin: 0.5rem;
+    flex-direction: column;
+}
+
+label{
+    font-weight: 50;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-light);
+}
+
+input{
+    width: 90%;
+    height: 20px;
+    padding: 1rem;
+    border-radius: 3px;
+}
+
+.block2 h5{
+    text-align: center
+}
+
+.block2{
+    width: 100%;
+    padding: 1rem;
+}
+
+.contact__info > input{
+    width: 100%;
+}
+
+.skill__type > input, .service__box > input, .portfolio__box > input, .testimonial__box > input, .contact__info > input{
+    margin: 5px;
+}
+
+.skill__name > input{
+    width: 30%;
+    margin: 5px;
+}
+.about__service > input{
+    width: 90%;
+    margin: 5px;
+}
+.skill__type, .service__box, .portfolio__box, .testimonial__box, .contact__info{
+    margin: 10 auto;
+    width: 100%;
+    padding: 5px;
+    border: 2px solid var(--color-bg-variant);
+    border-radius: 5px;
+}
+
+.skills__box, .services__box, .portfolio__box, .testimonial__box, .contact__info > input{
+    margin: 5px;
+}
+
+.build__container > .btn, .skill__type > .btn, .service__box >.btn{
+    margin: 5px;
+}
+
+.submit__button{
+    margin: 5px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
